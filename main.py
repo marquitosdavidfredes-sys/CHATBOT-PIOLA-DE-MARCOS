@@ -1,6 +1,6 @@
 #LIBRERÍAS
 import streamlit as st
-from groq import Groq
+import groq
 
 #VARIABLES
 altura_contenedor_chat = 600
@@ -87,6 +87,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
